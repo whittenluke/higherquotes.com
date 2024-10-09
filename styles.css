@@ -11,19 +11,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
+
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 .container {
@@ -76,38 +69,43 @@ main {
   flex: 1 0 auto;
 }
 
-#quote-of-the-day {
+#subscribe-form {
   background-color: white;
   border-radius: 8px;
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
 }
 
-h2 {
+#subscribe-form h2 {
   color: var(--primary-color);
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
 }
 
-.quote-container {
-  margin-bottom: 1.5rem;
+#subscription-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-blockquote {
-  font-family: 'Lora', serif;
-  font-size: 1.5rem;
-  font-style: italic;
-  color: var(--text-color);
+#subscription-form label {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+#subscription-form input[type="email"] {
+  width: 100%;
+  padding: 0.5rem;
   margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 
-#quote-author {
-  font-weight: bold;
-  color: var(--secondary-color);
-}
-
-button {
+#subscription-form button {
   background-color: var(--accent-color);
   color: white;
   border: none;
@@ -118,7 +116,7 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+#subscription-form button:hover {
   background-color: #3CC7A8;
 }
 
@@ -127,7 +125,6 @@ footer {
   color: white;
   padding: 1rem 0;
   text-align: center;
-  flex-shrink: 0;
 }
 
 footer .container {
