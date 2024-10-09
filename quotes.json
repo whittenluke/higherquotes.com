@@ -1,18 +1,46 @@
 [
-  {
-      "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
-      "author": "Franklin D. Roosevelt"
-  },
-  {
-      "quote": "The best way to predict the future is to create it.",
-      "author": "Peter Drucker"
-  },
-  {
-      "quote": "You miss 100% of the shots you don't take.",
-      "author": "Wayne Gretzky"
-  },
-  {
-      "quote": "Don't watch the clock; do what it does. Keep going.",
-      "author": "Sam Levenson"
-  }
-]
+    {
+        "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+        "author": "Franklin D. Roosevelt"
+    },
+    {
+        "quote": "The best way to predict the future is to create it.",
+        "author": "Peter Drucker"
+    },
+    {
+        "quote": "You miss 100% of the shots you don't take.",
+        "author": "Wayne Gretzky"
+    },
+    {
+        "quote": "Don't watch the clock; do what it does. Keep going.",
+        "author": "Sam Levenson"
+    },
+    {
+        "quote": "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.",
+        "author": "Winston Churchill"
+    },
+    {     
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs"    
+    },
+    {
+        "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+        "author": "Chinese Proverb"   
+    },
+    {
+        "quote": "It is during our darkest moments that we must focus to see the light.",
+        "author": "Aristotle" 
+    },
+    {
+        "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "quote": "If life were predictable it would cease to be life, and be without flavor.",
+        "author": "Eleanor Roosevelt"
+    },
+    {
+        "quote": "The way to get started is to quit talking and begin doing.",
+        "author": "Walt Disney"
+    }
+  ]
