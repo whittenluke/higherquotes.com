@@ -128,7 +128,25 @@ button {
 button:hover {
   background-color: #3CC7A8;
 }
+#about-content {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
+#about-content h2 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+#about-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
 footer {
   background-color: var(--primary-color);
   color: white;
