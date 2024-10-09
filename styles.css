@@ -69,6 +69,78 @@ main {
   flex: 1 0 auto;
 }
 
+#quote-of-the-day {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+h2 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.quote-container {
+  margin-bottom: 1.5rem;
+}
+
+blockquote {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+#quote-author {
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+button {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3CC7A8;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links a {
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: var(--secondary-color);
+}
+
 #subscribe-form {
   background-color: white;
   border-radius: 8px;
@@ -118,30 +190,6 @@ main {
 
 #subscription-form button:hover {
   background-color: #3CC7A8;
-}
-
-footer {
-  background-color: var(--primary-color);
-  color: white;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-footer .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.social-links a {
-  color: white;
-  font-size: 1.2rem;
-  margin-left: 1rem;
-  transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-  color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {
