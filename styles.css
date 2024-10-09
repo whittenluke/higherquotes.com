@@ -11,12 +11,19 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
@@ -66,6 +73,7 @@ nav ul li a:hover {
 
 main {
   padding: 3rem 0;
+  flex: 1 0 auto;
 }
 
 #quote-of-the-day {
@@ -119,6 +127,7 @@ footer {
   color: white;
   padding: 1rem 0;
   text-align: center;
+  flex-shrink: 0;
 }
 
 footer .container {
