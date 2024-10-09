@@ -43,7 +43,14 @@ function getRandomQuote(quotes) {
       return randomQuote;
   }
 }
+document.getElementById('subscription-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const email = document.getElementById('email').value;
+    const errorMessage = document.getElementById('error-message');
 
+    // Check if email is valid
+    if (!validateEmail(email)) {
+        errorMessage.textContent = 'Please enter a valid email address
 function displayQuote(quote) {
   const quoteElement = document.getElementById('daily-quote');
   const authorElement = document.getElementById('quote-author');
