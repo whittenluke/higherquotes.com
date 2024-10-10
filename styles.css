@@ -273,9 +273,9 @@ footer .container {
 }
 
 #quotes-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 5px; /* Reduced gap between cards */
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust this value to control the space between stacked cards */
 }
 
 .quote-item {
@@ -286,8 +286,9 @@ footer .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 180px; /* Increased height to make quotes more readable */
+  height: 180px; /* Keep the current height */
   overflow: hidden;
+  width: 100%; /* Ensure the cards take full width of their container */
 }
 
 .quote-item blockquote {
