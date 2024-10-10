@@ -1,7 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
   let allQuotes = [];
   let displayedQuotes = 0;
-  const quotesPerPage = 6;
+  const quotesPerPage = 9; // Show 9 quotes at a time
+  const maxLoadMoreClicks = 3; // Allow "Load More" to be clicked 3 times
+  let loadMoreClickCount = 0;
 
   fetch('quotes.json')
       .then(response => response.json())
@@ -10,14 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
           loadInitialQuotes();
           displayTopics();
           displayAuthors();
-          window.addEventListener('scroll', checkScroll);
       })
       .catch(error => console.error('Error loading quotes:', error));
 
-  document.getElementById('search-button').addEventListener('click', () => performSearch(true));
+  document.getElementById('search-button').addEventListener('click', performSearch);
   document.getElementById('search-input').addEventListener('keyup', event => {
       if (event.key === 'Enter') {
-          performSearch(true);
+          performSearch();
       }
   });
 
@@ -30,75 +31,81 @@ document.addEventListener('DOMContentLoaded', () => {
       displayQuotes(allQuotes.slice(0, quotesPerPage));
       displayedQuotes = quotesPerPage;
       updateLoadMoreButton();
-      checkScroll();
   }
 
-  function performSearch(navigateToResults = false) {
+  function performSearch() {
       const searchTerm = document.getElementById('search-input').value.toLowerCase();
-      const regex = new RegExp(searchTerm, 'gi');
       const filteredQuotes = allQuotes.filter(quote =>
-          regex.test(quote.quote) ||
-          regex.test(quote.author) ||
-          quote.topics.some(topic => regex.test(topic))
+          quote.quote.toLowerCase().includes(searchTerm) ||
+          quote.author.toLowerCase().includes(searchTerm) ||
+          quote.topics.some(topic => topic.toLowerCase().includes(searchTerm))
       );
-
-      if (navigateToResults) {
-          window.location.href = 'search-results.html?q=' + encodeURIComponent(searchTerm);
-      } else {
-          displayedQuotes = 0;
-          displayQuotes(filteredQuotes.slice(0, quotesPerPage));
-          displayedQuotes = Math.min(quotesPerPage, filteredQuotes.length);
-          updateLoadMoreButton(filteredQuotes);
-      }
+      displayedQuotes = 0;
+      loadMoreClickCount = 0;
+      displayQuotes(filteredQuotes.slice(0, quotesPerPage));
+      displayedQuotes = Math.min(quotesPerPage, filteredQuotes.length);
+      updateLoadMoreButton(filteredQuotes);
   }
 
   function displayQuotes(quotes) {
       const quotesList = document.getElementById('quotes-list');
       quotesList.innerHTML = '';
-      quotes.forEach((quote, index) => {
-          const quoteElement = document.createElement('div');
-          quoteElement.classList.add('quote-item');
-          quoteElement.innerHTML = `
-              <blockquote>"${quote.quote}"</blockquote>
-              <p>- ${quote.author}</p>
-              <div class="topics">
-                  ${quote.topics.map(topic => `<span class="topic-tag" data-topic="${topic}">${topic}</span>`).join(' ')}
-              </div>
-          `;
+      quotes.forEach(quote => {
+          const quoteElement = createQuoteElement(quote);
           quotesList.appendChild(quoteElement);
       });
   }
 
+  function createQuoteElement(quote) {
+      const quoteElement = document.createElement('div');
+      quoteElement.classList.add('quote-item');
+      quoteElement.innerHTML = `
+          <blockquote>"${quote.quote}"</blockquote>
+          <p>- ${quote.author}</p>
+          <div class="topics">
+              ${quote.topics.map(topic => `<span class="topic-tag" data-topic="${topic}">${topic}</span>`).join(' ')}
+          </div>
+      `;
+      return quoteElement;
+  }
+
   function loadMoreQuotes() {
       const searchTerm = document.getElementById('search-input').value.toLowerCase();
-      const relevantQuotes = searchTerm ?
+      const relevantQuotes = searchTerm ? 
           allQuotes.filter(quote =>
-              new RegExp(searchTerm, 'gi').test(quote.quote) ||
-              new RegExp(searchTerm, 'gi').test(quote.author) ||
-              quote.topics.some(topic => new RegExp(searchTerm, 'gi').test(topic))
+              quote.quote.toLowerCase().includes(searchTerm) ||
+              quote.author.toLowerCase().includes(searchTerm) ||
+              quote.topics.some(topic => topic.toLowerCase().includes(searchTerm))
           ) : allQuotes;
 
       const newQuotes = relevantQuotes.slice(displayedQuotes, displayedQuotes + quotesPerPage);
       const quotesList = document.getElementById('quotes-list');
       newQuotes.forEach(quote => {
-          const quoteElement = document.createElement('div');
-          quoteElement.classList.add('quote-item');
-          quoteElement.innerHTML = `
-              <blockquote>"${quote.quote}"</blockquote>
-              <p>- ${quote.author}</p>
-              <div class="topics">
-                  ${quote.topics.map(topic => `<span class="topic-tag" data-topic="${topic}">${topic}</span>`).join(' ')}
-              </div>
-          `;
+          const quoteElement = createQuoteElement(quote);
           quotesList.appendChild(quoteElement);
       });
       displayedQuotes += newQuotes.length;
+      loadMoreClickCount++;
       updateLoadMoreButton(relevantQuotes);
   }
 
   function updateLoadMoreButton(quotes = allQuotes) {
       const loadMoreButton = document.getElementById('load-more-button');
-      loadMoreButton.style.display = displayedQuotes < quotes.length ? 'inline-block' : 'none';
+      if (displayedQuotes >= quotes.length || loadMoreClickCount >= maxLoadMoreClicks) {
+          loadMoreButton.textContent = 'View All Quotes';
+          loadMoreButton.onclick = viewAllQuotes;
+      } else {
+          loadMoreButton.style.display = 'block';
+      }
+  }
+
+  function viewAllQuotes() {
+      // This function could either load all remaining quotes or redirect to a new page
+      // For now, let's load all remaining quotes
+      const quotesList = document.getElementById('quotes-list');
+      quotesList.innerHTML = '';
+      displayQuotes(allQuotes);
+      document.getElementById('load-more-button').style.display = 'none';
   }
 
   function handleTopicClick(event) {
@@ -136,11 +143,5 @@ document.addEventListener('DOMContentLoaded', () => {
           li.textContent = author;
           authorsList.appendChild(li);
       });
-  }
-
-  function checkScroll() {
-      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) {
-          loadMoreQuotes();
-      }
   }
 });
