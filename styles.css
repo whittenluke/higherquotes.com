@@ -74,47 +74,35 @@ main {
   justify-content: center;
   padding: 2rem 0;
 }
-#subscribe-form {
-  background-color: white;
-  border-radius: 8px;
-  padding: 2rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  text-align: center;
-  margin: 0 auto;
-  max-width: 600px;
+
+#search-section {
   width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-#subscribe-form label {
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
-}
-#subscribe-form input[type="email"] {
-  width: 100%;
+
+#search-input {
+  flex-grow: 1;
   padding: 0.75rem;
-  margin-bottom: 1rem;
+  font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-size: 1rem;
+  margin-right: 0.5rem;
 }
-#subscribe-form button {
+
+#search-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
   background-color: var(--accent-color);
   color: white;
   border: none;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
-#subscribe-form button:hover {
-  background-color: #3CC7A8;
-}
-#subscribe-form button:active {
-  transform: translateY(2px);
-}
+
 #quote-of-the-day,
 #subscribe-form,
 #about-content {
@@ -130,21 +118,12 @@ main {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  background-color: white;
-  border-radius: 8px;
-  padding: 2rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   text-align: center;
 }
 
 #about-content {
-  background-color: white;
-  border-radius: 8px;
-  padding: 2rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  text-align: left;
   max-width: 800px;
-  margin: 0 auto;
+  text-align: left;
 }
 
 h2 {
@@ -173,7 +152,6 @@ blockquote {
 }
 
 button,
-#search-button,
 #subscription-form button {
   background-color: var(--accent-color);
   color: white;
@@ -186,21 +164,8 @@ button,
 }
 
 button:hover,
-#search-button:hover,
 #subscription-form button:hover {
   background-color: #3CC7A8;
-}
-
-#search-section {
-  margin-bottom: 2rem;
-}
-
-#search-input {
-  width: 70%;
-  padding: 0.5rem;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
 }
 
 .content-grid {
@@ -272,20 +237,20 @@ button:hover,
   text-decoration: none;
 }
 
-#topics-list ul, 
+#topics-list ul,
 #authors-list ul {
   list-style-type: none;
   padding: 0;
 }
 
-#topics-list li, 
+#topics-list li,
 #authors-list li {
   cursor: pointer;
   padding: 5px 0;
   transition: color 0.3s ease;
 }
 
-#topics-list li:hover, 
+#topics-list li:hover,
 #authors-list li:hover {
   color: var(--accent-color);
 }
@@ -331,9 +296,14 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  #search-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
   #search-input {
-    width: 100%;
-    margin-bottom: 1rem;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
   }
 
   #search-button {
