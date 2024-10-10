@@ -261,7 +261,7 @@ footer .container {
 .content-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px; /* Reduced gap */
+  gap: 5px; /* Reduced gap between cards */
   margin-bottom: 20px;
 }
 
@@ -275,7 +275,7 @@ footer .container {
 #quotes-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 5px; /* Reduced gap */
+  gap: 5px; /* Reduced gap between cards */
 }
 
 .quote-item {
@@ -286,7 +286,7 @@ footer .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 120px; /* Reduced height */
+  height: 180px; /* Increased height to make quotes more readable */
   overflow: hidden;
 }
 
@@ -344,12 +344,8 @@ footer .container {
   color: var(--accent-color);
 }
 
-@media (min-width: 1024px) {
-  #quotes-list {
-    gap: 2px;
-  }
-
-  .quote-item {
-    height: 100px; /* Further reduce height for larger screens */
+@media (max-width: 768px) {
+  .content-grid {
+      grid-template-columns: 1fr;
   }
 }
