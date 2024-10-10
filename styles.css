@@ -258,6 +258,12 @@ footer .container {
   cursor: pointer;
 }
 
+#quotes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
 .quote-item {
   background-color: #f9f9f9;
   border-radius: 8px;
@@ -265,43 +271,50 @@ footer .container {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  overflow: hidden;
 }
+
 .quote-item blockquote {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-style: italic;
   margin-bottom: 0.2rem;
+  flex-grow: 1;
+  overflow: auto;
 }
 
 .quote-item p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-bottom: 0.2rem;
 }
 
 .topics {
-  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
 }
 
 .topic-tag {
   display: inline-block;
-  padding: 0.2rem 0.5rem;
+  padding: 0.1rem 0.3rem;
+  margin: 0.1rem;
   background-color: var(--accent-color);
   color: white;
   border-radius: 4px;
-  font-size: 0.8rem;
-  margin-right: 0.5rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
 .topic-tag:hover {
   background-color: #3CC7A8;
 }
+
 .quote-item a {
   display: inline-block;
   margin-top: 0.5rem;
   color: var(--accent-color);
   text-decoration: none;
 }
+
 .content-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -311,19 +324,6 @@ footer .container {
 
 .grid-item {
   background-color: white;
-  border-radius: 8px;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-#quotes-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 15px;
-}
-
-.quote-item {
-  background-color: #f9f9f9;
   border-radius: 8px;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
