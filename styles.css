@@ -258,10 +258,24 @@ footer .container {
   cursor: pointer;
 }
 
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px; /* Reduced gap */
+  margin-bottom: 20px;
+}
+
+.grid-item {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 #quotes-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 5px; /* Reduced gap from 15px to 5px */
+  gap: 5px; /* Reduced gap */
 }
 
 .quote-item {
@@ -272,7 +286,7 @@ footer .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 150px;
+  height: 120px; /* Reduced height */
   overflow: hidden;
 }
 
@@ -315,20 +329,6 @@ footer .container {
   text-decoration: none;
 }
 
-.content-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-  margin-bottom: 20px;
-}
-
-.grid-item {
-  background-color: white;
-  border-radius: 8px;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
 #topics-list ul, #authors-list ul {
   list-style-type: none;
   padding: 0;
@@ -344,8 +344,12 @@ footer .container {
   color: var(--accent-color);
 }
 
-@media (max-width: 768px) {
-  .content-grid {
-      grid-template-columns: 1fr;
+@media (min-width: 1024px) {
+  #quotes-list {
+    gap: 2px;
+  }
+
+  .quote-item {
+    height: 100px; /* Further reduce height for larger screens */
   }
 }
