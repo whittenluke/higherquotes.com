@@ -38,6 +38,11 @@ header {
   padding: 1rem 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+header h1 {
+  margin: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
 
 header .container {
   display: flex;
@@ -55,6 +60,7 @@ nav {
 nav ul {
   display: flex;
   list-style-type: none;
+  margin-left: auto;
 }
 
 nav ul li {
