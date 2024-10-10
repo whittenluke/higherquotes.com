@@ -7,18 +7,17 @@ document.addEventListener('DOMContentLoaded', () => {
       .then(response => response.json())
       .then(quotes => {
           allQuotes = quotes;
-          displayQuotes(allQuotes.slice(0, quotesPerPage));
-          displayedQuotes = quotesPerPage;
-          updateLoadMoreButton();
+          loadInitialQuotes();
           displayTopics();
           displayAuthors();
+          window.addEventListener('scroll', checkScroll);
       })
       .catch(error => console.error('Error loading quotes:', error));
 
-  document.getElementById('search-button').addEventListener('click', performSearch);
+  document.getElementById('search-button').addEventListener('click', () => performSearch(true));
   document.getElementById('search-input').addEventListener('keyup', event => {
       if (event.key === 'Enter') {
-          performSearch();
+          performSearch(true);
       }
   });
 
@@ -27,19 +26,30 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('topics-list').addEventListener('click', handleTopicClick);
   document.getElementById('authors-list').addEventListener('click', handleAuthorClick);
 
-  function performSearch(searchTerm = '') {
-      if (!searchTerm) {
-          searchTerm = document.getElementById('search-input').value.toLowerCase();
-      }
+  function loadInitialQuotes() {
+      displayQuotes(allQuotes.slice(0, quotesPerPage));
+      displayedQuotes = quotesPerPage;
+      updateLoadMoreButton();
+      checkScroll();
+  }
+
+  function performSearch(navigateToResults = false) {
+      const searchTerm = document.getElementById('search-input').value.toLowerCase();
       const regex = new RegExp(searchTerm, 'gi');
       const filteredQuotes = allQuotes.filter(quote =>
           regex.test(quote.quote) ||
           regex.test(quote.author) ||
           quote.topics.some(topic => regex.test(topic))
       );
-      displayQuotes(filteredQuotes.slice(0, quotesPerPage));
-      displayedQuotes = Math.min(quotesPerPage, filteredQuotes.length);
-      updateLoadMoreButton(filteredQuotes);
+
+      if (navigateToResults) {
+          window.location.href = 'search-results.html?q=' + encodeURIComponent(searchTerm);
+      } else {
+          displayedQuotes = 0;
+          displayQuotes(filteredQuotes.slice(0, quotesPerPage));
+          displayedQuotes = Math.min(quotesPerPage, filteredQuotes.length);
+          updateLoadMoreButton(filteredQuotes);
+      }
   }
 
   function displayQuotes(quotes) {
@@ -69,7 +79,19 @@ document.addEventListener('DOMContentLoaded', () => {
           ) : allQuotes;
 
       const newQuotes = relevantQuotes.slice(displayedQuotes, displayedQuotes + quotesPerPage);
-      displayQuotes([...document.querySelectorAll('.quote-item'), ...newQuotes]);
+      const quotesList = document.getElementById('quotes-list');
+      newQuotes.forEach(quote => {
+          const quoteElement = document.createElement('div');
+          quoteElement.classList.add('quote-item');
+          quoteElement.innerHTML = `
+              <blockquote>"${quote.quote}"</blockquote>
+              <p>- ${quote.author}</p>
+              <div class="topics">
+                  ${quote.topics.map(topic => `<span class="topic-tag" data-topic="${topic}">${topic}</span>`).join(' ')}
+              </div>
+          `;
+          quotesList.appendChild(quoteElement);
+      });
       displayedQuotes += newQuotes.length;
       updateLoadMoreButton(relevantQuotes);
   }
@@ -115,31 +137,10 @@ document.addEventListener('DOMContentLoaded', () => {
           authorsList.appendChild(li);
       });
   }
-  document.getElementById('search-button').addEventListener('click', () => {
-    performSearch(true);
-});
 
-document.getElementById('search-input').addEventListener('keyup', event => {
-    if (event.key === 'Enter') {
-        performSearch(true);
-    }
-});
-
-function performSearch(navigateToResults = false) {
-    const searchTerm = document.getElementById('search-input').value.toLowerCase();
-    const regex = new RegExp(searchTerm, 'gi');
-    const filteredQuotes = allQuotes.filter(quote =>
-        regex.test(quote.quote) ||
-        regex.test(quote.author) ||
-        quote.topics.some(topic => regex.test(topic))
-    );
-
-    if (navigateToResults) {
-        window.location.href = 'search-results.html?q=' + encodeURIComponent(searchTerm);
-    } else {
-        displayQuotes(filteredQuotes.slice(0, quotesPerPage));
-        displayedQuotes = Math.min(quotesPerPage, filteredQuotes.length);
-        updateLoadMoreButton(filteredQuotes);
-    }
-}
+  function checkScroll() {
+      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) {
+          loadMoreQuotes();
+      }
+  }
 });
