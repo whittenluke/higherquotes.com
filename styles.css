@@ -312,11 +312,11 @@ footer {
   align-items: center;
   justify-content: center;
   font-size: 0.9rem;
-  text-align: center;
 }
 
 .footer-text {
   margin-bottom: 0.25rem;
+  text-align: center;
 }
 
 .social-links {
