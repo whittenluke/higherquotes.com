@@ -301,29 +301,36 @@ footer {
   background-color: var(--primary-color);
   color: white;
   padding: 1rem 0;
-  text-align: center;
   flex-shrink: 0;
   margin-top: auto;
 }
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .footer-text, .social-links {
+  width: 100%;
   margin: 0.5rem 0;
+}
+.social-links {
+  margin-top: 1rem;
 }
 
 .social-links a {
   color: white;
   font-size: 1.2rem;
-  margin-left: 1rem;
+  margin: 0 0.5rem;
   transition: color 0.3s ease;
 }
-
+@media screen and (max-width: 768px) {
+  footer {
+    padding-bottom: env(safe-area-inset-bottom, 1rem);
+  }
 .social-links a:hover {
   color: var(--secondary-color);
 }
