@@ -20,9 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function performSearch() {
       const searchTerm = document.getElementById('search-input').value.toLowerCase();
+      const regex = new RegExp(searchTerm, 'gi');
       const filteredQuotes = allQuotes.filter(quote => 
-          quote.quote.toLowerCase().includes(searchTerm) ||
-          quote.author.toLowerCase().includes(searchTerm)
+          regex.test(quote.quote) ||
+          regex.test(quote.author)
       );
       displayQuotes(filteredQuotes);
   }
