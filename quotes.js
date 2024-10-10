@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   let allQuotes = [];
   let displayedQuotes = 0;
-  const quotesPerPage = 15; // Increased from 9 to 15
+  const quotesPerPage = 20; // Change quotes per page here
   const maxLoadMoreClicks = 3;
   let loadMoreClickCount = 0;
 
