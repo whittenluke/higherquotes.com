@@ -1,9 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   let allQuotes = [];
   let displayedQuotes = 0;
-  const quotesPerPage = 3; // Number of quotes to show initially and on each "Load More" click
+  const quotesPerPage = 3;
 
-  // Fetch quotes from JSON file
   fetch('quotes.json')
       .then(response => response.json())
       .then(quotes => {
@@ -14,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .catch(error => console.error('Error loading quotes:', error));
 
-  // Search functionality
   document.getElementById('search-button').addEventListener('click', performSearch);
   document.getElementById('search-input').addEventListener('keyup', event => {
       if (event.key === 'Enter') {
@@ -22,11 +20,15 @@ document.addEventListener('DOMContentLoaded', () => {
       }
   });
 
-  // Load More functionality
   document.getElementById('load-more-button').addEventListener('click', loadMoreQuotes);
 
-  function performSearch() {
-      const searchTerm = document.getElementById('search-input').value.toLowerCase();
+  // Add event delegation for topic clicks
+  document.getElementById('quotes-list').addEventListener('click', handleTopicClick);
+
+  function performSearch(searchTerm = '') {
+      if (!searchTerm) {
+          searchTerm = document.getElementById('search-input').value.toLowerCase();
+      }
       const regex = new RegExp(searchTerm, 'gi');
       const filteredQuotes = allQuotes.filter(quote =>
           regex.test(quote.quote) ||
@@ -48,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <blockquote>"${quote.quote}"</blockquote>
               <p>- ${quote.author}</p>
               <div class="topics">
-                  ${quote.topics.map(topic => `<span class="topic-tag">${topic}</span>`).join(' ')}
+                  ${quote.topics.map(topic => `<span class="topic-tag" data-topic="${topic}">${topic}</span>`).join(' ')}
               </div>
               <a href="quote.html?id=${allQuotes.indexOf(quote)}">View Quote</a>
           `;
@@ -74,5 +76,13 @@ document.addEventListener('DOMContentLoaded', () => {
   function updateLoadMoreButton(quotes = allQuotes) {
       const loadMoreButton = document.getElementById('load-more-button');
       loadMoreButton.style.display = displayedQuotes < quotes.length ? 'inline-block' : 'none';
+  }
+
+  function handleTopicClick(event) {
+      if (event.target.classList.contains('topic-tag')) {
+          const topic = event.target.dataset.topic;
+          document.getElementById('search-input').value = topic;
+          performSearch(topic);
+      }
   }
 });
