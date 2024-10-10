@@ -282,18 +282,18 @@ footer .container {
 }
 
 .topic-tag {
-  .topic-tag {
-    display: inline-block;
-    padding: 0.2rem 0.5rem;
-    background-color: var(--accent-color);
-    color: white;
-    border-radius: 4px;
-    font-size: 0.8rem;
-    margin-right: 0.5rem;
-    cursor: pointer; /* Add this line to make the topic tags appear clickable */
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 .topic-tag:hover {
-  background-color: #3CC7A8; /* Adjust the hover color as needed */
+  background-color: #3CC7A8;
 }
 .quote-item a {
   display: inline-block;
