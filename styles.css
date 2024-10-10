@@ -310,11 +310,17 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   font-size: 0.9rem;
 }
 
 .footer-text {
   margin-bottom: 0.25rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
 }
 
 .social-links a {
