@@ -115,4 +115,31 @@ document.addEventListener('DOMContentLoaded', () => {
           authorsList.appendChild(li);
       });
   }
+  document.getElementById('search-button').addEventListener('click', () => {
+    performSearch(true);
+});
+
+document.getElementById('search-input').addEventListener('keyup', event => {
+    if (event.key === 'Enter') {
+        performSearch(true);
+    }
+});
+
+function performSearch(navigateToResults = false) {
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    const regex = new RegExp(searchTerm, 'gi');
+    const filteredQuotes = allQuotes.filter(quote =>
+        regex.test(quote.quote) ||
+        regex.test(quote.author) ||
+        quote.topics.some(topic => regex.test(topic))
+    );
+
+    if (navigateToResults) {
+        window.location.href = 'search-results.html?q=' + encodeURIComponent(searchTerm);
+    } else {
+        displayQuotes(filteredQuotes.slice(0, quotesPerPage));
+        displayedQuotes = Math.min(quotesPerPage, filteredQuotes.length);
+        updateLoadMoreButton(filteredQuotes);
+    }
+}
 });
