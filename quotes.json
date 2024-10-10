@@ -1,28 +1,98 @@
 [
   {
-    "quote": "The unexamined life is not worth living.",
-    "author": "Socrates",
-    "topics": ["Philosophy", "Self-Reflection", "Personal Growth"]
+    "quote": "Change your life today. Don't gamble on the future, act now, without delay.",
+    "author": "Simone de Beauvoir",
+    "topics": ["Action", "Motivation", "Philosophy"]
   },
   {
-    "quote": "The only true wisdom is in knowing you know nothing.",
-    "author": "Socrates",
-    "topics": ["Philosophy", "Wisdom", "Humility", "Knowledge"]
+    "quote": "People who say it cannot be done are usually interrupting someone doing it.",
+    "author": "George Bernard Shaw",
+    "topics": ["Action", "Motivation", "Perseverance"]
   },
   {
-    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
-    "author": "Nelson Mandela",
-    "topics": ["Resilience", "Perseverance", "Personal Growth", "Inspiration"]
+    "quote": "Action expresses priorities.",
+    "author": "Mahatma Gandhi",
+    "topics": ["Action", "Priorities", "Philosophy"]
   },
   {
-    "quote": "The best way to predict the future is to invent it.",
-    "author": "Alan Kay",
-    "topics": ["Innovation", "Creativity", "Future", "Technology"]
+    "quote": "Don't watch the clock; do what it does. Keep going.",
+    "author": "Sam Levenson",
+    "topics": ["Action", "Motivation", "Time Management"]
   },
   {
-    "quote": "The best way to predict the future is to create it.",
-    "author": "Peter Drucker",
-    "topics": ["Innovation", "Creativity", "Future", "Leadership"]
+    "quote": "The only thing necessary for evil to triumph is for good men to do nothing.",
+    "author": "Edmund Burke",
+    "topics": ["Goodness", "Evil", "Philosophy"]
+  },
+  {
+    "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+    "author": "Buddha",
+    "topics": ["Mindfulness", "Present", "Philosophy"]
+  },
+  {
+    "quote": "The best view comes after climbing the mountain.",
+    "author": "Unknown",
+    "topics": ["Achievement", "Perseverance", "Motivation"]
+  },
+  {
+    "quote": "Be yourself; everyone else is already taken.",
+    "author": "Oscar Wilde",
+    "topics": ["Individuality", "Authenticity", "Personal Growth"]
+  },
+  {
+    "quote": "The journey of a thousand miles begins with one step.",
+    "author": "Lao Tzu",
+    "topics": ["Journey", "Action", "Motivation"]
+  },
+  {
+    "quote": "The first step towards getting somewhere is to decide that you are not going to stay where you are.",
+    "author": "J.P. Morgan",
+    "topics": ["Action", "Motivation", "Change"]
+  },
+  {
+    "quote": "The greatest mistake you can make in life is to be continually fearing you will make one.",
+    "author": "Elbert Hubbard",
+    "topics": ["Mistake", "Fear", "Life"]
+  },
+  {
+    "quote": "Do what you can, with what you have, where you are.",
+    "author": "Theodore Roosevelt",
+    "topics": ["Action", "Motivation", "Present"]
+  },
+  {
+    "quote": "The only limit to our future is our own belief that it cannot become our reality.",
+    "author": "Joel A. Barker",
+    "topics": ["Future", "Belief", "Reality"]
+  },
+  {
+    "quote": "The best time for new beginnings is now.",
+    "author": "Unknown",
+    "topics": ["New Beginnings", "Timing", "Motivation"]
+  },
+  {
+    "quote": "Your time is limited, so don't waste it living someone else's life.",
+    "author": "Joel Osteen",
+    "topics": ["Time Management", "Life", "Motivation"]
+  },
+  {
+    "quote": "Act as if what you do makes a difference. It does.",
+    "author": "William James",
+    "topics": ["Action", "Motivation", "Impact"]
+  },
+  {
+    "quote": "You are never too old to set another goal or to dream a new dream.",
+    "author": "Les Brown",
+    "topics": ["Aging", "Goals", "Dreams", "Motivation"]
+  },
+  {
+    "quote": "The way you get meaning into your life is to devote yourself to loving others, devote yourself to creating something that gives you purpose and meaning.",
+    "author": "Mitch Albom",
+    "topics": ["Meaning", "Purpose", "Love", "Creation"]
+  },
+  {
+    "quote": "The greatest gift you can give someone is your time, attention, and love.",
+    "author": "Unknown",
+    "topics": ["Giving", "Love", "Attention", "Time"]
   },
   {
     "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
@@ -32,7 +102,7 @@
   {
     "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
     "author": "Chinese Proverb",
-    "topics": ["Action", "Perseverance", "Time Management", "Opportunity"]
+    "topics": ["Time Management", "Planning", "Opportunity"]
   },
   {
     "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
@@ -138,5 +208,85 @@
     "quote": "The only way to understand the world is to understand a single life.",
     "author": "Wendell Berry",
     "topics": ["Understanding", "Empathy", "Life", "Perspective"]
+  },
+  {
+    "quote": "Be kind, for everyone you meet is fighting some kind of battle.",
+    "author": "Plato",
+    "topics": ["Kindness", "Empathy", "Philosophy"]
+  },
+  {
+    "quote": "Do not judge me by my successes, judge me by how many times I fell down and got back up again.",
+    "author": "Nelson Mandela",
+    "topics": ["Resilience", "Motivation", "Success"]
+  },
+  {
+    "quote": "I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.",
+    "author": "Leonardo da Vinci",
+    "topics": ["Action", "Knowledge", "Application"]
+  },
+  {
+    "quote": "Do something today that your future self will thank you for.",
+    "author": "Unknown",
+    "topics": ["Action", "Future", "Gratitude"]
+  },
+  {
+    "quote": "The biggest adventure you can take is to live the life of your dreams.",
+    "author": "Oprah Winfrey",
+    "topics": ["Adventure", "Dreams", "Life"]
+  },
+  {
+    "quote": "You are the master of your destiny; you are the captain of your soul.",
+    "author": "Virgil",
+    "topics": ["Self-Control", "Destiny", "Soul"]
+  },
+  {
+    "quote": "You can't go back and change the beginning, but you can start where you are and change the ending.",
+    "author": "C.S. Lewis",
+    "topics": ["Change", "Life", "Ending"]
+  },
+  {
+    "quote": "Don't be afraid to give up the good to go for the great.",
+    "author": "John D. Rockefeller",
+    "topics": ["Risk-Taking", "Motivation", "Ambition"]
+  },
+  {
+    "quote": "Do something wonderful, people may imitate it.",
+    "author": "Albert Schweitzer",
+    "topics": ["Kindness", "Influence", "Wonder"]
+  },
+  {
+    "quote": "Keep your eyes on the stars, and your feet on the ground.",
+    "author": "Theodore Roosevelt",
+    "topics": ["Ambition", "Reality", "Balance"]
+  },
+  {
+    "quote": "Do not let what you cannot do interfere with what you can do.",
+    "author": "John Wooden",
+    "topics": ["Ability", "Focus", "Action"]
+  },
+  {
+    "quote": "You don't have to be great to start, but you have to start to be great.",
+    "author": "Zig Ziglar",
+    "topics": ["Action", "Greatness", "Start"]
+  },
+  {
+    "quote": "Life begins at the end of your comfort zone.",
+    "author": "Neale Donald Walsch",
+    "topics": ["Life", "Comfort Zone", "Growth"]
+  },
+  {
+    "quote": "You can't hit a target you cannot see.",
+    "author": "Zig Ziglar",
+    "topics": ["Goals", "Vision", "Action"]
+  },
+  {
+    "quote": "The biggest risk is not taking any risk.",
+    "author": "Mark Zuckerberg",
+    "topics": ["Risk-Taking", "Innovation", "Growth"]
+  },
+  {
+    "quote": "Do not go where the path may lead; go instead where there is no path and leave a trail.",
+    "author": "Ralph Waldo Emerson",
+    "topics": ["Leadership", "Innovation", "Trailblazing"]
   }
 ]
