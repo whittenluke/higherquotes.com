@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   let allQuotes = [];
   let displayedQuotes = 0;
-  const quotesPerPage = 9; // Show 9 quotes at a time
-  const maxLoadMoreClicks = 3; // Allow "Load More" to be clicked 3 times
+  const quotesPerPage = 15; // Increased from 9 to 15
+  const maxLoadMoreClicks = 3;
   let loadMoreClickCount = 0;
 
   fetch('quotes.json')
@@ -100,8 +100,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function viewAllQuotes() {
-      // This function could either load all remaining quotes or redirect to a new page
-      // For now, let's load all remaining quotes
       const quotesList = document.getElementById('quotes-list');
       quotesList.innerHTML = '';
       displayQuotes(allQuotes);
@@ -112,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (event.target.classList.contains('topic-tag') || event.target.tagName === 'LI') {
           const topic = event.target.dataset.topic || event.target.textContent;
           document.getElementById('search-input').value = topic;
-          performSearch(topic);
+          performSearch();
       }
   }
 
@@ -120,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (event.target.tagName === 'LI') {
           const author = event.target.textContent;
           document.getElementById('search-input').value = author;
-          performSearch(author);
+          performSearch();
       }
   }
 
