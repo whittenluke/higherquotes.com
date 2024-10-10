@@ -267,6 +267,7 @@ footer .container {
 }
 
 .quote-item blockquote {
+  font-size: 1.2rem;
   font-style: italic;
   margin-bottom: 0.5rem;
 }
@@ -276,4 +277,8 @@ footer .container {
   margin-top: 0.5rem;
   color: var(--accent-color);
   text-decoration: none;
+}
+.quote-item p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
