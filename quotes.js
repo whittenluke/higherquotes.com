@@ -41,22 +41,24 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function displayQuotes(quotes) {
-      const quotesList = document.getElementById('quotes-list');
-      quotesList.innerHTML = '';
-      quotes.forEach((quote, index) => {
-          const quoteElement = document.createElement('div');
-          quoteElement.classList.add('quote-item');
-          quoteElement.innerHTML = `
-              <blockquote>"${quote.quote}"</blockquote>
-              <p>- ${quote.author}</p>
-              <div class="topics">
-                  ${quote.topics.map(topic => `<span class="topic-tag" data-topic="${topic}">${topic}</span>`).join(' ')}
-              </div>
-              <a href="quote.html?id=${allQuotes.indexOf(quote)}">View Quote</a>
-          `;
-          quotesList.appendChild(quoteElement);
-      });
-  }
+    const quotesList = document.getElementById('quotes-list');
+    quotesList.innerHTML = '';
+    quotes.forEach((quote, index) => {
+        const quoteElement = document.createElement('div');
+        quoteElement.classList.add('quote-item');
+        quoteElement.innerHTML = `
+            <blockquote>"${quote.quote}"</blockquote>
+            <p>- ${quote.author}</p>
+            <div class="topics">
+                ${quote.topics.map(topic => `<span class="topic-tag" data-topic="${topic}">${topic}</span>`).join(' ')}
+            </div>
+            <a href="quote.html?id=${allQuotes.indexOf(quote)}">View Quote</a>
+        `;
+        quotesList.appendChild(quoteElement);
+    });
+    // Re-add event listener for topic clicks after updating quotes
+    quotesList.addEventListener('click', handleTopicClick);
+}
 
   function loadMoreQuotes() {
       const searchTerm = document.getElementById('search-input').value.toLowerCase();
