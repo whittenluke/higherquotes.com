@@ -1,223 +1,568 @@
 [
   {
-    "quote": "Change your life today. Don't gamble on the future, act now, without delay.",
-    "author": "Simone de Beauvoir",
-    "topics": ["Action", "Motivation", "Philosophy"]
+    "quote": "You are braver than you believe, stronger than you seem, and smarter than you think.",
+    "author": "A.A. Milne (Winnie the Pooh)",
+    "topics": ["Encouragement", "Self-confidence", "Strength"]
   },
   {
-    "quote": "People who say it cannot be done are usually interrupting someone doing it.",
-    "author": "George Bernard Shaw",
-    "topics": ["Action", "Motivation", "Perseverance"]
+    "quote": "You cannot change your future, but you can change your habits, and surely your habits will change your future.",
+    "author": "A.P.J Abdul Kalam",
+    "topics": ["Change", "Habits", "Future"]
   },
   {
-    "quote": "Action expresses priorities.",
-    "author": "Mahatma Gandhi",
-    "topics": ["Action", "Priorities", "Philosophy"]
+    "quote": "In the end, it's not the years in your life that count. It's the life in your years.",
+    "author": "Abraham Lincoln",
+    "topics": ["Life", "Quality", "Time"]
   },
   {
-    "quote": "Don't watch the clock; do what it does. Keep going.",
-    "author": "Sam Levenson",
-    "topics": ["Action", "Motivation", "Time Management"]
+    "quote": "The best way to predict your future is to create it.",
+    "author": "Abraham Lincoln",
+    "topics": ["Future", "Action", "Empowerment"]
   },
   {
-    "quote": "The only thing necessary for evil to triumph is for good men to do nothing.",
-    "author": "Edmund Burke",
-    "topics": ["Goodness", "Evil", "Philosophy"]
-  },
-  {
-    "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
-    "author": "Buddha",
-    "topics": ["Mindfulness", "Present", "Philosophy"]
-  },
-  {
-    "quote": "The best view comes after climbing the mountain.",
-    "author": "Unknown",
-    "topics": ["Achievement", "Perseverance", "Motivation"]
-  },
-  {
-    "quote": "Be yourself; everyone else is already taken.",
-    "author": "Oscar Wilde",
-    "topics": ["Individuality", "Authenticity", "Personal Growth"]
-  },
-  {
-    "quote": "The journey of a thousand miles begins with one step.",
-    "author": "Lao Tzu",
-    "topics": ["Journey", "Action", "Motivation"]
-  },
-  {
-    "quote": "The first step towards getting somewhere is to decide that you are not going to stay where you are.",
-    "author": "J.P. Morgan",
-    "topics": ["Action", "Motivation", "Change"]
-  },
-  {
-    "quote": "The greatest mistake you can make in life is to be continually fearing you will make one.",
-    "author": "Elbert Hubbard",
-    "topics": ["Mistake", "Fear", "Life"]
-  },
-  {
-    "quote": "Do what you can, with what you have, where you are.",
-    "author": "Theodore Roosevelt",
-    "topics": ["Action", "Motivation", "Present"]
-  },
-  {
-    "quote": "The only limit to our future is our own belief that it cannot become our reality.",
-    "author": "Joel A. Barker",
-    "topics": ["Future", "Belief", "Reality"]
-  },
-  {
-    "quote": "The best time for new beginnings is now.",
-    "author": "Unknown",
-    "topics": ["New Beginnings", "Timing", "Motivation"]
-  },
-  {
-    "quote": "Your time is limited, so don't waste it living someone else's life.",
-    "author": "Joel Osteen",
-    "topics": ["Time Management", "Life", "Motivation"]
-  },
-  {
-    "quote": "Act as if what you do makes a difference. It does.",
-    "author": "William James",
-    "topics": ["Action", "Motivation", "Impact"]
-  },
-  {
-    "quote": "You are never too old to set another goal or to dream a new dream.",
-    "author": "Les Brown",
-    "topics": ["Aging", "Goals", "Dreams", "Motivation"]
-  },
-  {
-    "quote": "The way you get meaning into your life is to devote yourself to loving others, devote yourself to creating something that gives you purpose and meaning.",
-    "author": "Mitch Albom",
-    "topics": ["Meaning", "Purpose", "Love", "Creation"]
-  },
-  {
-    "quote": "The greatest gift you can give someone is your time, attention, and love.",
-    "author": "Unknown",
-    "topics": ["Giving", "Love", "Attention", "Time"]
-  },
-  {
-    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
-    "author": "Franklin D. Roosevelt",
-    "topics": ["Motivation", "Inspiration", "Future", "Doubt"]
-  },
-  {
-    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
-    "author": "Chinese Proverb",
-    "topics": ["Time Management", "Planning", "Opportunity"]
-  },
-  {
-    "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
-    "author": "Ralph Waldo Emerson",
-    "topics": ["Self-Acceptance", "Authenticity", "Individuality"]
-  },
-  {
-    "quote": "It is during our darkest moments that we must focus to see the light.",
-    "author": "Aristotle",
-    "topics": ["Resilience", "Hope", "Adversity", "Philosophy"]
-  },
-  {
-    "quote": "The only thing we have to fear is fear itself.",
-    "author": "Franklin D. Roosevelt",
-    "topics": ["Courage", "Fear", "Motivation", "Leadership"]
-  },
-  {
-    "quote": "You miss 100% of the shots you don't take.",
-    "author": "Wayne Gretzky",
-    "topics": ["Risk-Taking", "Motivation", "Sports", "Success"]
-  },
-  {
-    "quote": "The way to get started is to quit talking and begin doing.",
-    "author": "Walt Disney",
-    "topics": ["Action", "Motivation", "Success", "Entrepreneurship"]
-  },
-  {
-    "quote": "If life were predictable it would cease to be life, and be without flavor.",
-    "author": "Eleanor Roosevelt",
-    "topics": ["Life", "Unpredictability", "Adventure", "Personal Growth"]
-  },
-  {
-    "quote": "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.",
-    "author": "Winston Churchill",
-    "topics": ["Optimism", "Perspective", "Opportunity", "Attitude"]
-  },
-  {
-    "quote": "The only way to do great work is to love what you do.",
-    "author": "Steve Jobs",
-    "topics": ["Passion", "Work", "Success", "Motivation"]
-  },
-  {
-    "quote": "The best way to make your dreams come true is to wake up.",
-    "author": "Paul Valéry",
-    "topics": ["Action", "Dreams", "Motivation", "Success"]
-  },
-  {
-    "quote": "The only limit to our achievements is our doubts about what we can do.",
-    "author": "Henry Ford",
-    "topics": ["Self-Belief", "Achievement", "Doubt", "Motivation"]
-  },
-  {
-    "quote": "The best way to find yourself is to lose yourself in the service of others.",
-    "author": "Mahatma Gandhi",
-    "topics": ["Service", "Self-Discovery", "Altruism", "Personal Growth"]
-  },
-  {
-    "quote": "The only thing that stands between a man and what he wants from life is often merely the will to try it and the faith to believe that it is possible.",
-    "author": "Richard M. DeVos",
-    "topics": ["Belief", "Willpower", "Achievement", "Motivation"]
-  },
-  {
-    "quote": "The only source of knowledge is experience.",
-    "author": "Albert Einstein",
-    "topics": ["Knowledge", "Experience", "Learning", "Wisdom"]
-  },
-  {
-    "quote": "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.",
-    "author": "Steve Jobs",
-    "topics": ["Passion", "Work", "Perseverance", "Self-Discovery"]
-  },
-  {
-    "quote": "The only way to learn is to do.",
-    "author": "Epictetus",
-    "topics": ["Learning", "Action", "Experience", "Personal Growth"]
+    "quote": "Whatever you are, be a good one.",
+    "author": "Abraham Lincoln",
+    "topics": ["Excellence", "Self-improvement"]
   },
   {
     "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
     "author": "Alan Watts",
-    "topics": ["Change", "Adaptability", "Philosophy", "Life"]
+    "topics": ["Change", "Adaptation", "Acceptance"]
   },
   {
-    "quote": "The only way to predict the future is to have power to shape the future.",
-    "author": "Eric Hoffer",
-    "topics": ["Future", "Power", "Influence", "Leadership"]
+    "quote": "If you want to live a happy life, tie it to a goal, not to people or things.",
+    "author": "Albert Einstein",
+    "topics": ["Happiness", "Goals", "Purpose"]
   },
   {
-    "quote": "The only way to take control of your life is to take control of your consistent actions.",
-    "author": "Tony Robbins",
-    "topics": ["Self-Control", "Action", "Personal Development", "Habits"]
+    "quote": "Imagination is more important than knowledge.",
+    "author": "Albert Einstein",
+    "topics": ["Imagination", "Knowledge", "Creativity"]
   },
   {
-    "quote": "The only way to truly conquer something is to become it.",
-    "author": "Dr. Drew Pinsky",
-    "topics": ["Understanding", "Mastery", "Personal Growth", "Empathy"]
+    "quote": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+    "author": "Albert Einstein",
+    "topics": ["Life", "Progress", "Perseverance"]
+  },
+  {
+    "quote": "Strive not to be a success, but rather to be of value.",
+    "author": "Albert Einstein",
+    "topics": ["Success", "Value", "Purpose"]
+  },
+  {
+    "quote": "The only source of knowledge is experience.",
+    "author": "Albert Einstein",
+    "topics": ["Knowledge", "Experience", "Learning"]
+  },
+  {
+    "quote": "Try not to become a man of success. Rather become a man of value.",
+    "author": "Albert Einstein",
+    "topics": ["Success", "Value", "Character"]
+  },
+  {
+    "quote": "Do something wonderful, people may imitate it.",
+    "author": "Albert Schweitzer",
+    "topics": ["Inspiration", "Action", "Influence"]
+  },
+  {
+    "quote": "The most common way people give up their power is by thinking they don't have any.",
+    "author": "Alice Walker",
+    "topics": ["Power", "Self-belief", "Empowerment"]
+  },
+  {
+    "quote": "The most difficult thing is the decision to act, the rest is merely tenacity.",
+    "author": "Amelia Earhart",
+    "topics": ["Action", "Decision", "Perseverance"]
+  },
+  {
+    "quote": "Life shrinks or expands in proportion to one's courage.",
+    "author": "Anaïs Nin",
+    "topics": ["Life", "Courage", "Growth"]
+  },
+  {
+    "quote": "Certain things catch your eye, but pursue only those that capture the heart.",
+    "author": "Ancient Indian Proverb",
+    "topics": ["Passion", "Focus", "Pursuit"]
+  },
+  {
+    "quote": "How wonderful it is that nobody need wait a single moment before starting to improve the world.",
+    "author": "Anne Frank",
+    "topics": ["Action", "Improvement", "World"]
+  },
+  {
+    "quote": "Whoever is happy will make others happy too.",
+    "author": "Anne Frank",
+    "topics": ["Happiness", "Influence", "Positivity"]
+  },
+  {
+    "quote": "It is during our darkest moments that we must focus to see the light.",
+    "author": "Aristotle",
+    "topics": ["Adversity", "Hope", "Perseverance"]
+  },
+  {
+    "quote": "There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
+    "author": "Aristotle",
+    "topics": ["Criticism", "Action", "Courage"]
+  },
+  {
+    "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "Aristotle",
+    "topics": ["Habit", "Excellence", "Character"]
+  },
+  {
+    "quote": "Start where you are. Use what you have. Do what you can.",
+    "author": "Arthur Ashe",
+    "topics": ["Action", "Resourcefulness", "Progress"]
+  },
+  {
+    "quote": "Nothing is impossible, the word itself says 'I'm possible'!",
+    "author": "Audrey Hepburn",
+    "topics": ["Possibility", "Optimism", "Wordplay"]
+  },
+  {
+    "quote": "The question isn't who is going to let me; it's who is going to stop me.",
+    "author": "Ayn Rand",
+    "topics": ["Determination", "Self-reliance", "Empowerment"]
+  },
+  {
+    "quote": "Every strike brings me closer to the next home run.",
+    "author": "Babe Ruth",
+    "topics": ["Perseverance", "Failure", "Success"]
+  },
+  {
+    "quote": "Never let the fear of striking out keep you from playing the game.",
+    "author": "Babe Ruth",
+    "topics": ["Fear", "Risk", "Action"]
+  },
+  {
+    "quote": "The real test is not whether you avoid this failure, because you won't. It's whether you let it harden or shame you into inaction, or whether you learn from it.",
+    "author": "Barack Obama",
+    "topics": ["Failure", "Learning", "Resilience"]
+  },
+  {
+    "quote": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+    "author": "Benjamin Franklin",
+    "topics": ["Learning", "Education", "Experience"]
+  },
+  {
+    "quote": "In order to succeed, your desire for success should be greater than your fear of failure.",
+    "author": "Bill Cosby",
+    "topics": ["Success", "Fear", "Motivation"]
+  },
+  {
+    "quote": "What's money? A man is a success if he gets up in the morning and goes to bed at night and in between does what he wants to do.",
+    "author": "Bob Dylan",
+    "topics": ["Success", "Happiness", "Fulfillment"]
+  },
+  {
+    "quote": "Few things can help an individual more than to place responsibility on him, and to let him know that you trust him.",
+    "author": "Booker T. Washington",
+    "topics": ["Trust", "Responsibility", "Empowerment"]
+  },
+  {
+    "quote": "If you want to lift yourself up, lift up someone else.",
+    "author": "Booker T. Washington",
+    "topics": ["Kindness", "Altruism", "Self-improvement"]
+  },
+  {
+    "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+    "author": "Buddha",
+    "topics": ["Mindfulness", "Present", "Focus"]
+  },
+  {
+    "quote": "The mind is everything. What you think you become.",
+    "author": "Buddha",
+    "topics": ["Mind", "Thoughts", "Self-fulfillment"]
+  },
+  {
+    "quote": "What we think, we become.",
+    "author": "Buddha",
+    "topics": ["Thoughts", "Self-fulfillment", "Mindset"]
+  },
+  {
+    "quote": "You can't go back and change the beginning, but you can start where you are and change the ending.",
+    "author": "C.S. Lewis",
+    "topics": ["Change", "Beginning", "Future"]
+  },
+  {
+    "quote": "The only way to achieve the impossible is to believe it is possible.",
+    "author": "Charles Kingsleigh (Alice in Wonderland)",
+    "topics": ["Belief", "Possibility", "Achievement"]
+  },
+  {
+    "quote": "Life is 10% what happens to us and 90% how we react to it.",
+    "author": "Charles R.Swindoll",
+    "topics": ["Attitude", "Reaction", "Life"]
+  },
+  {
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "author": "Chinese Proverb",
+    "topics": ["Action", "Time", "Opportunity"]
+  },
+  {
+    "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
+    "author": "Colin Powell",
+    "topics": ["Success", "Preparation", "Learning"]
+  },
+  {
+    "quote": "Everything has beauty, but not everyone sees it.",
+    "author": "Confucius",
+    "topics": ["Beauty", "Perception", "Appreciation"]
+  },
+  {
+    "quote": "It does not matter how slowly you go as long as you do not stop.",
+    "author": "Confucius",
+    "topics": ["Progress", "Perseverance", "Consistency"]
+  },
+  {
+    "quote": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius",
+    "topics": ["Simplicity", "Life", "Perspective"]
+  },
+  {
+    "quote": "Our greatest glory is not in never falling, but in rising every time we fall.",
+    "author": "Confucius",
+    "topics": ["Resilience", "Failure", "Perseverance"]
+  },
+  {
+    "quote": "The man who moves a mountain begins by carrying away small stones.",
+    "author": "Confucius",
+    "topics": ["Perseverance", "Progress", "Goals"]
+  },
+  {
+    "quote": "Success seems to be connected with action. Successful people keep moving. They make mistakes but they don't quit.",
+    "author": "Conrad Hilton",
+    "topics": ["Success", "Action", "Perseverance"]
+  },
+  {
+    "quote": "Happiness is not something ready made. It comes from your own actions.",
+    "author": "Dalai Lama",
+    "topics": ["Happiness", "Action", "Self-responsibility"]
+  },
+  {
+    "quote": "Remember that not getting what you want is sometimes a wonderful stroke of luck.",
+    "author": "Dalai Lama",
+    "topics": ["Perspective", "Luck", "Acceptance"]
+  },
+  {
+    "quote": "The purpose of our lives is to be happy.",
+    "author": "Dalai Lama",
+    "topics": ["Happiness", "Purpose", "Life"]
   },
   {
     "quote": "The only way to understand the limitations of language is to experience the limitlessness of silence.",
     "author": "Deepak Chopra",
-    "topics": ["Language", "Silence", "Meditation", "Self-Awareness"]
+    "topics": ["Silence", "Language", "Understanding"]
   },
   {
-    "quote": "The only way to understand the world is to understand a single life.",
-    "author": "Wendell Berry",
-    "topics": ["Understanding", "Empathy", "Life", "Perspective"]
+    "quote": "If you don't build your dream, someone else will hire you to help them build theirs.",
+    "author": "Dhirubhai Ambani",
+    "topics": ["Dreams", "Entrepreneurship", "Self-realization"]
   },
   {
-    "quote": "Be kind, for everyone you meet is fighting some kind of battle.",
-    "author": "Plato",
-    "topics": ["Kindness", "Empathy", "Philosophy"]
+    "quote": "The only way to truly conquer something is to become it.",
+    "author": "Dr. Drew Pinsky",
+    "topics": ["Mastery", "Transformation", "Understanding"]
   },
   {
-    "quote": "Do not judge me by my successes, judge me by how many times I fell down and got back up again.",
-    "author": "Nelson Mandela",
-    "topics": ["Resilience", "Motivation", "Success"]
+    "quote": "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.",
+    "author": "Dr. Seuss",
+    "topics": ["Choice", "Self-direction", "Empowerment"]
+  },
+  {
+    "quote": "The only thing necessary for evil to triumph is for good men to do nothing.",
+    "author": "Edmund Burke",
+    "topics": ["Action", "Responsibility", "Morality"]
+  },
+  {
+    "quote": "The greatest mistake you can make in life is to be continually fearing you will make one.",
+    "author": "Elbert Hubbard",
+    "topics": ["Fear", "Mistakes", "Life"]
+  },
+  {
+    "quote": "Do what you feel in your heart to be right – for you'll be criticized anyway.",
+    "author": "Eleanor Roosevelt",
+    "topics": ["Integrity", "Criticism", "Self-belief"]
+  },
+  {
+    "quote": "If life were predictable it would cease to be life, and be without flavor.",
+    "author": "Eleanor Roosevelt",
+    "topics": ["Life", "Unpredictability", "Adventure"]
+  },
+  {
+    "quote": "No one can make you feel inferior without your consent.",
+    "author": "Eleanor Roosevelt",
+    "topics": ["Self-esteem", "Empowerment", "Confidence"]
+  },
+  {
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "topics": ["Dreams", "Future", "Belief"]
+  },
+  {
+    "quote": "To handle yourself, use your head; to handle others, use your heart.",
+    "author": "Eleanor Roosevelt",
+    "topics": ["Leadership", "Empathy", "Self-management"]
+  },
+  {
+    "quote": "The only way to learn is to do.",
+    "author": "Epictetus",
+    "topics": ["Learning", "Action", "Experience"]
+  },
+  {
+    "quote": "The only way to predict the future is to have power to shape the future.",
+    "author": "Eric Hoffer",
+    "topics": ["Future", "Power", "Action"]
+  },
+  {
+    "quote": "You take your life in your own hands, and what happens? A terrible thing, no one to blame.",
+    "author": "Erica Jong",
+    "topics": ["Responsibility", "Self-reliance", "Accountability"]
+  },
+  {
+    "quote": "When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me.",
+    "author": "Erma Bombeck",
+    "topics": ["Life", "Potential", "Purpose"]
+  },
+  {
+    "quote": "In order to write about life first you must live it.",
+    "author": "Ernest Hemingway",
+    "topics": ["Life", "Experience", "Writing"]
+  },
+  {
+    "quote": "I never dreamed about success, I worked for it.",
+    "author": "Estée Lauder",
+    "topics": ["Success", "Work", "Action"]
+  },
+  {
+    "quote": "I disapprove of what you say, but I will defend to the death your right to say it.",
+    "author": "Evelyn Beatrice Hall",
+    "topics": ["Freedom", "Speech", "Tolerance"]
+  },
+  {
+    "quote": "The best revenge is massive success.",
+    "author": "Frank Sinatra",
+    "topics": ["Success", "Revenge", "Motivation"]
+  },
+  {
+    "quote": "The big lesson in life, baby, is never be scared of anyone or anything.",
+    "author": "Frank Sinatra",
+    "topics": ["Courage", "Fearlessness", "Life"]
+  },
+  {
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "topics": ["Doubt", "Future", "Belief"]
+  },
+  {
+    "quote": "The only thing we have to fear is fear itself.",
+    "author": "Franklin D. Roosevelt",
+    "topics": ["Fear", "Courage", "Mindset"]
+  },
+  {
+    "quote": "When you reach the end of your rope, tie a knot in it and hang on.",
+    "author": "Franklin D. Roosevelt",
+    "topics": ["Perseverance", "Resilience", "Hope"]
+  },
+  {
+    "quote": "Everything you've ever wanted is on the other side of fear.",
+    "author": "George Addair",
+    "topics": ["Fear", "Desire", "Courage"]
+  },
+  {
+    "quote": "Life is not about finding yourself. Life is about creating yourself.",
+    "author": "George Bernard Shaw",
+    "topics": ["Life", "Self-creation", "Identity"]
+  },
+  {
+    "quote": "People who say it cannot be done are usually interrupting someone doing it.",
+    "author": "George Bernard Shaw",
+    "topics": ["Determination", "Action", "Criticism"]
+  },
+  {
+    "quote": "It is never too late to be what you might have been.",
+    "author": "George Eliot",
+    "topics": ["Potential", "Change", "Self-improvement"]
+  },
+  {
+    "quote": "Success is how high you bounce when you hit bottom.",
+    "author": "George S. Patton",
+    "topics": ["Success", "Resilience", "Adversity"]
+  },
+  {
+    "quote": "It's not whether you win or lose, but how you play the game.",
+    "author": "Grantland Rice",
+    "topics": ["Sportsmanship", "Integrity", "Effort"]
+  },
+  {
+    "quote": "The best preparation for tomorrow is doing your best today.",
+    "author": "H. Jackson Brown Jr.",
+    "topics": ["Preparation", "Effort", "Present"]
+  },
+  {
+    "quote": "Life is either a daring adventure or nothing at all.",
+    "author": "Helen Keller",
+    "topics": ["Life", "Adventure", "Risk"]
+  },
+  {
+    "quote": "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
+    "author": "Helen Keller",
+    "topics": ["Beauty", "Feeling", "Heart"]
+  },
+  {
+    "quote": "The only thing worse than being blind is having sight but no vision.",
+    "author": "Helen Keller",
+    "topics": ["Vision", "Purpose", "Sight"]
+  },
+  {
+    "quote": "Go confidently in the direction of your dreams. Live the life you have imagined.",
+    "author": "Henry David Thoreau",
+    "topics": ["Dreams", "Confidence", "Life"]
+  },
+  {
+    "quote": "Success usually comes to those who are too busy to be looking for it.",
+    "author": "Henry David Thoreau",
+    "topics": ["Success", "Work", "Focus"]
+  },
+  {
+    "quote": "The only limit to our achievements is our doubts about what we can do.",
+    "author": "Henry Ford",
+    "topics": ["Achievement", "Doubt", "Self-belief"]
+  },
+  {
+    "quote": "The only real mistake is the one from which we learn nothing.",
+    "author": "Henry Ford",
+    "topics": ["Mistakes", "Learning", "Growth"]
+  },
+  {
+    "quote": "The whole secret of a successful life is to find out what is one's destiny to do, and then do it.",
+    "author": "Henry Ford",
+    "topics": ["Success", "Purpose", "Action"]
+  },
+  {
+    "quote": "When everything seems to be going against you, remember that the airplane takes off against the wind, not with it.",
+    "author": "Henry Ford",
+    "topics": ["Adversity", "Resilience", "Perspective"]
+  },
+  {
+    "quote": "Whether you think you can or you think you can't, you're right.",
+    "author": "Henry Ford",
+    "topics": ["Mindset", "Belief", "Self-fulfilling prophecy"]
+  },
+  {
+    "quote": "You cannot shake hands with a clenched fist.",
+    "author": "Indira Gandhi",
+    "topics": ["Peace", "Compromise", "Open-mindedness"]
+  },
+  {
+    "quote": "The first step towards getting somewhere is to decide that you are not going to stay where you are.",
+    "author": "J.P. Morgan",
+    "topics": ["Change", "Decision", "Progress"]
+  },
+  {
+    "quote": "Change before you have to.",
+    "author": "Jack Welch",
+    "topics": ["Change", "Proactivity", "Adaptability"]
+  },
+  {
+    "quote": "If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.",
+    "author": "James Cameron",
+    "topics": ["Goals", "Ambition", "Perspective"]
+  },
+  {
+    "quote": "Limitations live only in our minds. But if we use our imaginations, our possibilities become limitless.",
+    "author": "Jamie Paolinetti",
+    "topics": ["Imagination", "Possibilities", "Mindset"]
+  },
+  {
+    "quote": "Ask and it will be given to you; search, and you will find; knock and the door will be opened for you.",
+    "author": "Jesus",
+    "topics": ["Faith", "Seeking", "Opportunity"]
+  },
+  {
+    "quote": "Happiness is not by chance, but by choice.",
+    "author": "Jim Rohn",
+    "topics": ["Happiness", "Choice", "Attitude"]
+  },
+  {
+    "quote": "Your life does not get better by chance, it gets better by change.",
+    "author": "Jim Rohn",
+    "topics": ["Change", "Improvement", "Action"]
+  },
+  {
+    "quote": "I can't change the direction of the wind, but I can adjust my sails to always reach my destination.",
+    "author": "Jimmy Dean",
+    "topics": ["Adaptability", "Perseverance", "Goals"]
+  },
+  {
+    "quote": "The only limit to our future is our own belief that it cannot become our reality.",
+    "author": "Joel A. Barker",
+    "topics": ["Future", "Belief", "Possibility"]
+  },
+  {
+    "quote": "Don't be afraid to give up the good to go for the great.",
+    "author": "John D. Rockefeller",
+    "topics": ["Risk", "Ambition", "Change"]
+  },
+  {
+    "quote": "The secret of success is to do the common thing uncommonly well.",
+    "author": "John D. Rockefeller Jr.",
+    "topics": ["Success", "Excellence", "Uniqueness"]
+  },
+  {
+    "quote": "Ask not what your country can do for you – ask what you can do for your country.",
+    "author": "John F. Kennedy",
+    "topics": ["Patriotism", "Service", "Responsibility"]
+  },
+  {
+    "quote": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon",
+    "topics": ["Life", "Planning", "Present"]
+  },
+  {
+    "quote": "When I was 5 years old, my mother always told me that happiness was the key to life. When I went to school, they asked me what I wanted to be when I grew up. I wrote down 'happy'. They told me I didn't understand the assignment, and I told them they didn't understand life.",
+    "author": "John Lennon",
+    "topics": ["Happiness", "Life", "Perspective"]
+  },
+  {
+    "quote": "You may say I'm a dreamer, but I'm not the only one. I hope someday you'll join us. And the world will live as one.",
+    "author": "John Lennon",
+    "topics": ["Dreams", "Unity", "Hope"]
+  },
+  {
+    "quote": "Do not let what you cannot do interfere with what you can do.",
+    "author": "John Wooden",
+    "topics": ["Action", "Ability", "Focus"]
+  },
+  {
+    "quote": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    "author": "Jordan Belfort",
+    "topics": ["Goals", "Self-belief", "Mindset"]
+  },
+  {
+    "quote": "Challenges are what make life interesting and overcoming them is what makes life meaningful.",
+    "author": "Joshua J. Marine",
+    "topics": ["Challenges", "Life", "Meaning"]
+  },
+  {
+    "quote": "Life isn't about getting and having, it's about giving and being.",
+    "author": "Kevin Kruse",
+    "topics": ["Life", "Giving", "Being"]
+  },
+  {
+    "quote": "The journey of a thousand miles begins with one step.",
+    "author": "Lao Tzu",
+    "topics": ["Journey", "Beginning", "Action"]
+  },
+  {
+    "quote": "When I let go of what I am, I become what I might be.",
+    "author": "Lao Tzu",
+    "topics": ["Change", "Potential", "Growth"]
+  },
+  {
+    "quote": "Curiosity about life in all of its aspects, I think, is still the secret of great creative people.",
+    "author": "Leo Burnett",
+    "topics": ["Curiosity", "Creativity", "Life"]
   },
   {
     "quote": "I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.",
@@ -225,68 +570,528 @@
     "topics": ["Action", "Knowledge", "Application"]
   },
   {
-    "quote": "Do something today that your future self will thank you for.",
-    "author": "Unknown",
-    "topics": ["Action", "Future", "Gratitude"]
+    "quote": "Too many of us are not living our dreams because we are living our fears.",
+    "author": "Les Brown",
+    "topics": ["Dreams", "Fear", "Living"]
   },
   {
-    "quote": "The biggest adventure you can take is to live the life of your dreams.",
-    "author": "Oprah Winfrey",
-    "topics": ["Adventure", "Dreams", "Life"]
+    "quote": "You are never too old to set another goal or to dream a new dream.",
+    "author": "Les Brown",
+    "topics": ["Age", "Goals", "Dreams"]
   },
   {
-    "quote": "You are the master of your destiny; you are the captain of your soul.",
-    "author": "Virgil",
-    "topics": ["Self-Control", "Destiny", "Soul"]
+    "quote": "You only live once, but if you do it right, once is enough.",
+    "author": "Mae West",
+    "topics": ["Life", "Living", "Purpose"]
   },
   {
-    "quote": "You can't go back and change the beginning, but you can start where you are and change the ending.",
-    "author": "C.S. Lewis",
-    "topics": ["Change", "Life", "Ending"]
+    "quote": "Action expresses priorities.",
+    "author": "Mahatma Gandhi",
+    "topics": ["Action", "Priorities", "Values"]
   },
   {
-    "quote": "Don't be afraid to give up the good to go for the great.",
-    "author": "John D. Rockefeller",
-    "topics": ["Risk-Taking", "Motivation", "Ambition"]
+    "quote": "Be the change you wish to see in the world.",
+    "author": "Mahatma Gandhi",
+    "topics": ["Change", "Action", "Inspiration"]
   },
   {
-    "quote": "Do something wonderful, people may imitate it.",
-    "author": "Albert Schweitzer",
-    "topics": ["Kindness", "Influence", "Wonder"]
+    "quote": "The best way to find yourself is to lose yourself in the service of others.",
+    "author": "Mahatma Gandhi",
+    "topics": ["Self-discovery", "Service", "Altruism"]
   },
   {
-    "quote": "Keep your eyes on the stars, and your feet on the ground.",
-    "author": "Theodore Roosevelt",
-    "topics": ["Ambition", "Reality", "Balance"]
+    "quote": "The future depends on what you do today.",
+    "author": "Mahatma Gandhi",
+    "topics": ["Future", "Action", "Present"]
   },
   {
-    "quote": "Do not let what you cannot do interfere with what you can do.",
-    "author": "John Wooden",
-    "topics": ["Ability", "Focus", "Action"]
+    "quote": "You must be the change you wish to see in the world.",
+    "author": "Mahatma Gandhi",
+    "topics": ["Change", "Action", "Responsibility"]
   },
   {
-    "quote": "You don't have to be great to start, but you have to start to be great.",
-    "author": "Zig Ziglar",
-    "topics": ["Action", "Greatness", "Start"]
+    "quote": "Teach thy tongue to say, I do not know, and thou shalt progress.",
+    "author": "Maimonides",
+    "topics": ["Knowledge", "Humility", "Growth"]
   },
   {
-    "quote": "Life begins at the end of your comfort zone.",
-    "author": "Neale Donald Walsch",
-    "topics": ["Life", "Comfort Zone", "Growth"]
+    "quote": "Always remember that you are absolutely unique. Just like everyone else.",
+    "author": "Margaret Mead",
+    "topics": ["Individuality", "Uniqueness", "Humor"]
   },
   {
-    "quote": "You can't hit a target you cannot see.",
-    "author": "Zig Ziglar",
-    "topics": ["Goals", "Vision", "Action"]
+    "quote": "We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained.",
+    "author": "Marie Curie",
+    "topics": ["Belief", "Purpose", "Determination"]
+  },
+  {
+    "quote": "The best way to cheer yourself is to try to cheer someone else up.",
+    "author": "Mark Twain",
+    "topics": ["Happiness", "Kindness", "Altruism"]
+  },
+  {
+    "quote": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain",
+    "topics": ["Action", "Beginning", "Progress"]
+  },
+  {
+    "quote": "The two most important days in your life are the day you are born and the day you find out why.",
+    "author": "Mark Twain",
+    "topics": ["Purpose", "Life", "Self-discovery"]
+  },
+  {
+    "quote": "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
+    "author": "Mark Twain",
+    "topics": ["Individuality", "Reflection", "Critical thinking"]
   },
   {
     "quote": "The biggest risk is not taking any risk.",
     "author": "Mark Zuckerberg",
-    "topics": ["Risk-Taking", "Innovation", "Growth"]
+    "topics": ["Risk", "Success", "Innovation"]
+  },
+  {
+    "quote": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+    "author": "Martin Luther King Jr.",
+    "topics": ["Love", "Peace", "Light"]
+  },
+  {
+    "quote": "I have a dream that one day this nation will rise up and live out the true meaning of its creed: 'We hold these truths to be self-evident, that all men are created equal.'",
+    "author": "Martin Luther King Jr.",
+    "topics": ["Equality", "Dream", "Justice"]
+  },
+  {
+    "quote": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+    "author": "Martin Luther King Jr.",
+    "topics": ["Friendship", "Integrity", "Action"]
+  },
+  {
+    "quote": "Our lives begin to end the day we become silent about things that matter.",
+    "author": "Martin Luther King Jr.",
+    "topics": ["Activism", "Courage", "Integrity"]
+  },
+  {
+    "quote": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+    "author": "Maya Angelou",
+    "topics": ["Impact", "Emotions", "Relationships"]
+  },
+  {
+    "quote": "Life is not measured by the number of breaths we take, but by the moments that take our breath away.",
+    "author": "Maya Angelou",
+    "topics": ["Life", "Moments", "Experience"]
+  },
+  {
+    "quote": "You can't use up creativity. The more you use, the more you have.",
+    "author": "Maya Angelou",
+    "topics": ["Creativity", "Inspiration", "Growth"]
+  },
+  {
+    "quote": "You will face many defeats in life, but never let yourself be defeated.",
+    "author": "Maya Angelou",
+    "topics": ["Resilience", "Defeat", "Perseverance"]
+  },
+  {
+    "quote": "The way you get meaning into your life is to devote yourself to loving others, devote yourself to creating something that gives you purpose and meaning.",
+    "author": "Mitch Albom",
+    "topics": ["Purpose", "Love", "Meaning", "Devotion"]
+  },
+  {
+    "quote": "I alone cannot change the world, but I can cast a stone across the water to create many ripples.",
+    "author": "Mother Teresa",
+    "topics": ["Influence", "Change", "Impact"]
+  },
+  {
+    "quote": "Spread love everywhere you go. Let no one ever come to you without leaving happier.",
+    "author": "Mother Teresa",
+    "topics": ["Love", "Kindness", "Happiness"]
+  },
+  {
+    "quote": "Life begins at the end of your comfort zone.",
+    "author": "Neale Donald Walsch",
+    "topics": ["Growth", "Comfort", "Challenge"]
+  },
+  {
+    "quote": "That's one small step for man, one giant leap for mankind.",
+    "author": "Neil Armstrong",
+    "topics": ["Progress", "Achievement", "Humanity"]
+  },
+  {
+    "quote": "Do not judge me by my successes, judge me by how many times I fell down and got back up again.",
+    "author": "Nelson Mandela",
+    "topics": ["Resilience", "Perseverance", "Success"]
+  },
+  {
+    "quote": "It always seems impossible until it's done.",
+    "author": "Nelson Mandela",
+    "topics": ["Perseverance", "Achievement", "Possibility"]
+  },
+  {
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "topics": ["Resilience", "Perseverance", "Growth"]
+  },
+  {
+    "quote": "Dream big and dare to fail.",
+    "author": "Norman Vaughan",
+    "topics": ["Ambition", "Risk", "Courage"]
+  },
+  {
+    "quote": "Change your thoughts and you change your world.",
+    "author": "Norman Vincent Peale",
+    "topics": ["Mindset", "Change", "Perspective"]
+  },
+  {
+    "quote": "If you look at what you have in life, you'll always have more.",
+    "author": "Oprah Winfrey",
+    "topics": ["Gratitude", "Perspective", "Abundance"]
+  },
+  {
+    "quote": "The biggest adventure you can take is to live the life of your dreams.",
+    "author": "Oprah Winfrey",
+    "topics": ["Dreams", "Adventure", "Self-fulfillment"]
+  },
+  {
+    "quote": "Be yourself; everyone else is already taken.",
+    "author": "Oscar Wilde",
+    "topics": ["Authenticity", "Individuality", "Self-expression"]
+  },
+  {
+    "quote": "Everything you can imagine is real.",
+    "author": "Pablo Picasso",
+    "topics": ["Imagination", "Creativity", "Possibility"]
+  },
+  {
+    "quote": "The best way to make your dreams come true is to wake up.",
+    "author": "Paul Valéry",
+    "topics": ["Action", "Dreams", "Reality"]
+  },
+  {
+    "quote": "The best way to predict the future is to create it.",
+    "author": "Peter Drucker",
+    "topics": ["Future", "Action", "Creation"]
+  },
+  {
+    "quote": "Be kind, for everyone you meet is fighting some kind of battle.",
+    "author": "Plato",
+    "topics": ["Kindness", "Empathy", "Understanding"]
+  },
+  {
+    "quote": "The greatest wealth is to live content with little.",
+    "author": "Plato",
+    "topics": ["Contentment", "Simplicity", "Wealth"]
+  },
+  {
+    "quote": "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.",
+    "author": "Plato",
+    "topics": ["Fear", "Knowledge", "Growth"]
+  },
+  {
+    "quote": "The mind is not a vessel to be filled, but a fire to be kindled.",
+    "author": "Plutarch",
+    "topics": ["Education", "Inspiration", "Growth"]
   },
   {
     "quote": "Do not go where the path may lead; go instead where there is no path and leave a trail.",
     "author": "Ralph Waldo Emerson",
-    "topics": ["Leadership", "Innovation", "Trailblazing"]
+    "topics": ["Leadership", "Innovation", "Courage"]
+  },
+  {
+    "quote": "The only person you are destined to become is the person you decide to be.",
+    "author": "Ralph Waldo Emerson",
+    "topics": ["Self-determination", "Choice", "Identity"]
+  },
+  {
+    "quote": "The only way to have a friend is to be one.",
+    "author": "Ralph Waldo Emerson",
+    "topics": ["Friendship", "Reciprocity", "Kindness"]
+  },
+  {
+    "quote": "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.",
+    "author": "Ralph Waldo Emerson",
+    "topics": ["Purpose", "Compassion", "Impact"]
+  },
+  {
+    "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "author": "Ralph Waldo Emerson",
+    "topics": ["Authenticity", "Individuality", "Courage"]
+  },
+  {
+    "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "author": "Ralph Waldo Emerson",
+    "topics": ["Potential", "Self-belief", "Inner-strength"]
+  },
+  {
+    "quote": "To succeed in life, you need three things: a wishbone, a backbone, and a funny bone.",
+    "author": "Reba McEntire",
+    "topics": ["Success", "Resilience", "Humor"]
+  },
+  {
+    "quote": "I think, therefore I am.",
+    "author": "René Descartes",
+    "topics": ["Existence", "Consciousness", "Philosophy"]
+  },
+  {
+    "quote": "The only thing that stands between a man and what he wants from life is often merely the will to try it and the faith to believe that it is possible.",
+    "author": "Richard M. DeVos",
+    "topics": ["Willpower", "Faith", "Possibility"]
+  },
+  {
+    "quote": "In three words I can sum up everything I've learned about life: it goes on.",
+    "author": "Robert Frost",
+    "topics": ["Resilience", "Continuity", "Acceptance"]
+  },
+  {
+    "quote": "The best way out is always through.",
+    "author": "Robert Frost",
+    "topics": ["Perseverance", "Courage", "Challenge"]
+  },
+  {
+    "quote": "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
+    "author": "Robert Frost",
+    "topics": ["Choice", "Individuality", "Courage"]
+  },
+  {
+    "quote": "Don't judge each day by the harvest you reap but by the seeds that you plant.",
+    "author": "Robert Louis Stevenson",
+    "topics": ["Progress", "Growth", "Patience"]
+  },
+  {
+    "quote": "We can't help everyone, but everyone can help someone.",
+    "author": "Ronald Reagan",
+    "topics": ["Kindness", "Impact", "Helpfulness"]
+  },
+  {
+    "quote": "I have learned over the years that when one's mind is made up, this diminishes fear.",
+    "author": "Rosa Parks",
+    "topics": ["Determination", "Courage", "Fear"]
+  },
+  {
+    "quote": "Don't watch the clock; do what it does. Keep going.",
+    "author": "Sam Levenson",
+    "topics": ["Perseverance", "Focus", "Progress"]
+  },
+  {
+    "quote": "Life is short, and it is up to you to make it sweet.",
+    "author": "Sarah Louise Delany",
+    "topics": ["Life", "Responsibility", "Happiness"]
+  },
+  {
+    "quote": "Not how long, but how well you have lived is the main thing.",
+    "author": "Seneca",
+    "topics": ["Life", "Quality", "Purpose"]
+  },
+  {
+    "quote": "Change your life today. Don't gamble on the future, act now, without delay.",
+    "author": "Simone de Beauvoir",
+    "topics": ["Action", "Change", "Present"]
+  },
+  {
+    "quote": "The only true wisdom is in knowing you know nothing.",
+    "author": "Socrates",
+    "topics": ["Wisdom", "Humility", "Knowledge"]
+  },
+  {
+    "quote": "The unexamined life is not worth living.",
+    "author": "Socrates",
+    "topics": ["Self-reflection", "Purpose", "Philosophy"]
+  },
+  {
+    "quote": "Get busy living or get busy dying.",
+    "author": "Stephen King",
+    "topics": ["Life", "Action", "Choice"]
+  },
+  {
+    "quote": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs",
+    "topics": ["Ambition", "Curiosity", "Growth"]
+  },
+  {
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "topics": ["Passion", "Work", "Success"]
+  },
+  {
+    "quote": "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.",
+    "author": "Steve Jobs",
+    "topics": ["Passion", "Perseverance", "Fulfillment"]
+  },
+  {
+    "quote": "Your time is limited, so don't waste it living someone else's life.",
+    "author": "Steve Jobs",
+    "topics": ["Authenticity", "Time", "Life"]
+  },
+  {
+    "quote": "I have always depended on the kindness of strangers.",
+    "author": "Tennessee Williams",
+    "topics": ["Kindness", "Humanity", "Vulnerability"]
+  },
+  {
+    "quote": "Believe you can and you're halfway there.",
+    "author": "Theodore Roosevelt",
+    "topics": ["Self-belief", "Confidence", "Achievement"]
+  },
+  {
+    "quote": "Do what you can, with what you have, where you are.",
+    "author": "Theodore Roosevelt",
+    "topics": ["Action", "Resourcefulness", "Opportunity"]
+  },
+  {
+    "quote": "Keep your eyes on the stars, and your feet on the ground.",
+    "author": "Theodore Roosevelt",
+    "topics": ["Ambition", "Practicality", "Balance"]
+  },
+  {
+    "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+    "author": "Thomas A. Edison",
+    "topics": ["Perseverance", "Failure", "Innovation"]
+  },
+  {
+    "quote": "Many of life's failures are people who did not realize how close they were to success when they gave up.",
+    "author": "Thomas A. Edison",
+    "topics": ["Perseverance", "Success", "Failure"]
+  },
+  {
+    "quote": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    "author": "Thomas Edison",
+    "topics": ["Success", "Hard-work", "Inspiration"]
+  },
+  {
+    "quote": "I find that the harder I work, the more luck I seem to have.",
+    "author": "Thomas Jefferson",
+    "topics": ["Hard-work", "Luck", "Success"]
+  },
+  {
+    "quote": "If you want something you've never had, you must be willing to do something you've never done.",
+    "author": "Thomas Jefferson",
+    "topics": ["Change", "Growth", "Achievement"]
+  },
+  {
+    "quote": "What we fear doing most is usually what we most need to do.",
+    "author": "Tim Ferriss",
+    "topics": ["Fear", "Growth", "Courage"]
+  },
+  {
+    "quote": "The only impossible journey is the one you never begin.",
+    "author": "Tony Robbins",
+    "topics": ["Action", "Journey", "Possibility"]
+  },
+  {
+    "quote": "Do something today that your future self will thank you for.",
+    "author": "Unknown",
+    "topics": ["Action", "Future", "Self-improvement"]
+  },
+  {
+    "quote": "You can't fall if you don't climb. But there's no joy in living your whole life on the ground.",
+    "author": "Unknown",
+    "topics": ["Risk", "Growth", "Adventure"]
+  },
+  {
+    "quote": "Music expresses that which cannot be put into words and that which cannot remain silent.",
+    "author": "Victor Hugo",
+    "topics": ["Music", "Expression", "Emotion"]
+  },
+  {
+    "quote": "The only place where success comes before work is in the dictionary.",
+    "author": "Vidal Sassoon",
+    "topics": ["Success", "Hard-work", "Effort"]
+  },
+  {
+    "quote": "It's not whether you get knocked down; it's whether you get up.",
+    "author": "Vince Lombardi",
+    "topics": ["Resilience", "Perseverance", "Courage"]
+  },
+  {
+    "quote": "Perfection is not attainable, but if we chase perfection we can catch excellence.",
+    "author": "Vince Lombardi",
+    "topics": ["Excellence", "Perfection", "Growth"]
+  },
+  {
+    "quote": "You are the master of your destiny; you are the captain of your soul.",
+    "author": "Virgil",
+    "topics": ["Self-determination", "Destiny", "Control"]
+  },
+  {
+    "quote": "Life is not about waiting for the storm to pass, but learning to dance in the rain.",
+    "author": "Vivian Greene",
+    "topics": ["Resilience", "Positivity", "Adaptation"]
+  },
+  {
+    "quote": "The way to get started is to quit talking and begin doing.",
+    "author": "Walt Disney",
+    "topics": ["Action", "Initiative", "Progress"]
+  },
+  {
+    "quote": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+    "author": "Walt Whitman",
+    "topics": ["Positivity", "Optimism", "Perspective"]
+  },
+  {
+    "quote": "You miss 100% of the shots you don't take.",
+    "author": "Wayne Gretzky",
+    "topics": ["Risk", "Opportunity", "Action"]
+  },
+  {
+    "quote": "The only way to understand the world is to understand a single life.",
+    "author": "Wendell Berry",
+    "topics": ["Understanding", "Empathy", "Perspective"]
+  },
+  {
+    "quote": "Money and success don't change people; they merely amplify what is already there.",
+    "author": "Will Smith",
+    "topics": ["Character", "Success", "Wealth"]
+  },
+  {
+    "quote": "You cannot swim for new horizons until you have courage to lose sight of the shore.",
+    "author": "William Faulkner",
+    "topics": ["Courage", "Growth", "Change"]
+  },
+  {
+    "quote": "Act as if what you do makes a difference. It does.",
+    "author": "William James",
+    "topics": ["Action", "Impact", "Motivation"]
+  },
+  {
+    "quote": "The greatest discovery of my generation is that a human being can alter his life by altering his attitude.",
+    "author": "William James",
+    "topics": ["Attitude", "Change", "Self-improvement"]
+  },
+  {
+    "quote": "To be or not to be, that is the question.",
+    "author": "William Shakespeare",
+    "topics": ["Existence", "Choice", "Philosophy"]
+  },
+  {
+    "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "topics": ["Success", "Failure", "Perseverance"]
+  },
+  {
+    "quote": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "author": "Winston Churchill",
+    "topics": ["Success", "Failure", "Enthusiasm"]
+  },
+  {
+    "quote": "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.",
+    "author": "Winston Churchill",
+    "topics": ["Optimism", "Pessimism", "Perspective"]
+  },
+  {
+    "quote": "Success is not final; failure is not fatal: It is the courage to continue that counts.",
+    "author": "Winston S. Churchill",
+    "topics": ["Success", "Failure", "Courage"]
+  },
+  {
+    "quote": "Don't be distracted by criticism. Remember--the only taste of success some people get is to take a bite out of you.",
+    "author": "Zig Ziglar",
+    "topics": ["Criticism", "Success", "Resilience"]
+  },
+  {
+    "quote": "If you can dream it, you can achieve it.",
+    "author": "Zig Ziglar",
+    "topics": ["Dreams", "Achievement", "Motivation"]
+  },
+  {
+    "quote": "You don't have to be great to start, but you have to start to be great.",
+    "author": "Zig Ziglar",
+    "topics": ["Beginnings", "Greatness", "Action"]
   }
 ]
