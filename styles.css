@@ -193,8 +193,8 @@ blockquote {
 }
 
 #quote-author {
-  font-weight: bold;
-  color: var(--secondary-color);
+  font-weight: bolder;
+  color: var(--accent-color);
   font-size: 1rem;
   margin-bottom: 0.5rem;
 }
@@ -263,7 +263,7 @@ button:hover {
 .quote-item p {                                 /* Author text in quote cards */
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
-  color: var(--secondary-color);
+  color: var(--accent-color);
 }
 
 .quote-item p:hover {
