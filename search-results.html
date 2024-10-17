@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BB541Q9Z9Q"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BB541Q9Z9Q"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-BB541Q9Z9Q');
-</script>
+      gtag('config', 'G-BB541Q9Z9Q');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Results - Higher Quotes</title>
@@ -25,6 +25,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
+                    <li><a href="subscribe.html">Subscribe</a></li>
                     <li><a href="quotes.html">All Quotes</a></li>
                 </ul>
             </nav>
@@ -33,18 +34,24 @@
     <main>
         <div class="container">
             <section id="search-results">
-                <button id="back-button">Back to All Quotes</button>
-                <div id="quotes-list"></div>
+                <h2>Search Results</h2>
+                <div id="search-info"></div>
+                <div id="quotes-list" class="grid-item"></div>
             </section>
+            <button id="load-more-button">Load More</button>
         </div>
     </main>
     <footer>
         <div class="container">
-            <p>&copy; 2024 Higher Quotes. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Higher Quotes. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
             </div>
         </div>
     </footer>

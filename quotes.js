@@ -34,17 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
     function performSearch() {
-        const searchTerm = document.getElementById('search-input').value.toLowerCase();
-        const filteredQuotes = allQuotes.filter(quote =>
-            quote.quote.toLowerCase().includes(searchTerm) ||
-            quote.author.toLowerCase().includes(searchTerm) ||
-            quote.topics.some(topic => topic.toLowerCase().includes(searchTerm))
-        );
-        displayedQuotes = 0;
-        loadMoreClickCount = 0;
-        displayQuotes(filteredQuotes.slice(0, quotesPerPage));
-        displayedQuotes = Math.min(quotesPerPage, filteredQuotes.length);
-        updateLoadMoreButton(filteredQuotes);
+        const searchTerm = document.getElementById('search-input').value;
+        window.location.href = `search-results.html?search=${encodeURIComponent(searchTerm)}`;
     }
   
     function displayQuotes(quotes) {
@@ -112,16 +103,14 @@ document.addEventListener('DOMContentLoaded', () => {
         if (event.target.classList.contains('topic-tag') || event.target.tagName === 'LI') {
             event.preventDefault();
             const topic = event.target.dataset.topic || event.target.textContent;
-            document.getElementById('search-input').value = topic;
-            performSearch();
+            window.location.href = `search-results.html?search=${encodeURIComponent(topic)}&type=topic`;
         }
     }
   
     function handleAuthorClick(event) {
         if (event.target.tagName === 'LI') {
             const author = event.target.textContent;
-            document.getElementById('search-input').value = author;
-            performSearch();
+            window.location.href = `search-results.html?search=${encodeURIComponent(author)}&type=author`;
         }
     }
   
