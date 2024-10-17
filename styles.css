@@ -4,6 +4,7 @@
   --background-color: #F8F8F8;
   --text-color: #333333;
   --accent-color: #50E3C2;
+  --hover-color: #1FC19E;
 }
 
 * {
@@ -105,7 +106,8 @@ main {
 
 #quote-of-the-day,
 #subscribe-form,
-#about-content {
+#about-content,
+#single-quote {
   background-color: white;
   border-radius: 8px;
   padding: 2rem;
@@ -153,7 +155,7 @@ main {
 }
 
 #subscribe-form button:hover {
-  background-color: #3CC7A8;
+  background-color: var(--hover-color);
 }
 
 #subscribe-form button:active {
@@ -209,7 +211,7 @@ button {
 }
 
 button:hover {
-  background-color: #3CC7A8;
+  background-color: var(--hover-color);
 }
 
 .content-grid {
@@ -230,10 +232,16 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-top: 1rem;
+}
+#quotes-list h2 {
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
 }
 
 .quote-item {
-  background-color: #f9f9f9;
+  background-color: var(--background-color);
   border-radius: 8px;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -242,6 +250,8 @@ button:hover {
   justify-content: space-between;
   min-height: 150px;
   width: 100%;
+  position: relative;
+  z-index: 0;
 }
 
 .quote-item blockquote {
@@ -250,11 +260,15 @@ button:hover {
   flex-grow: 1;
 }
 
-.quote-item p {
+.quote-item p {                                 /* Author text in quote cards */
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
+  color: var(--secondary-color);
 }
 
+.quote-item p:hover {
+  color: var(--hover-color);
+}
 .topics {
   font-size: 0.8rem;
 }
@@ -271,7 +285,7 @@ button:hover {
 }
 
 .topic-tag:hover {
-  background-color: #3CC7A8;
+  background-color: var(--hover-color);
 }
 
 .quote-item a {
@@ -292,11 +306,12 @@ button:hover {
   cursor: pointer;
   padding: 5px 0;
   transition: color 0.3s ease;
+  color: var(--text-color)
 }
 
 #topics-list li:hover,
 #authors-list li:hover {
-  color: var(--accent-color);
+  color: var(--hover-color);
 }
 
 #load-more-button {
