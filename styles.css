@@ -2,6 +2,7 @@
   --primary-color: #4A90E2;
   --secondary-color: #F5A623;
   --background-color: #F8F8F8;
+  --white-color: #FFFFFF;
   --text-color: #333333;
   --accent-color: #50E3C2;
   --hover-color: #1FC19E;
@@ -106,13 +107,24 @@ main {
 
 #quote-of-the-day,
 #subscribe-form,
-#about-content,
-#single-quote {
+#about-content {
   background-color: white;
   border-radius: 8px;
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   margin: 0 auto;
+}
+
+#single-quote {
+  padding: 2rem;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #quote-of-the-day,
@@ -241,10 +253,10 @@ button:hover {
 }
 
 .quote-item {
-  background-color: var(--background-color);
+  background-color: var(--white-color);
   border-radius: 8px;
   padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -282,6 +294,7 @@ button:hover {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .topic-tag:hover {
