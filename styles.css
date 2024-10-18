@@ -78,10 +78,41 @@ main {
   padding: 2rem 0;
 }
 
-#search-section {
+/* Specific styling for the search bar on the All Quotes page */
+.container #search-section {
   width: 100%;
   max-width: 800px;
   margin: 2rem auto;
+  padding: 0 20px;
+}
+
+.container #search-input {
+  flex-grow: 1;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.container #search-form {
+  display: flex;
+  width: 100%;
+}
+
+.container #search-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+#search-section {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem 0;
   margin-top: 1rem; /* Add a small space above the search bar */
   margin-bottom: 2rem; /* Keep some space below the search bar */
   display: flex;
@@ -98,6 +129,7 @@ main {
 
 #search-input {
   flex-grow: 1;
+  max-width: 600px;
   padding: 12px 20px; /* Increased padding for better usability */
   font-size: 16px;
   border: 1px solid #ccc; /* Subtle border */
@@ -123,13 +155,21 @@ main {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 2rem;
 }
 
 #search-results h2 {
   text-align: center;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   color: var(--primary-color);
+}
+
+#search-results #quotes-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #quotes-list {
@@ -173,11 +213,23 @@ main {
   gap: 0.5rem;
 }
 
+.search-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.quote-item .topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 /* Styling for the "Back to All Quotes" button */
 #back-button {
-  margin-top: 1rem;
   display: block;
-  margin: 2rem auto;
+  margin: 0 auto;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   background-color: var(--accent-color);
@@ -335,8 +387,8 @@ button:hover {
 
 .content-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 3fr 1fr 1fr;
+  gap: 30px;
   margin-bottom: 20px;
 }
 
@@ -365,11 +417,13 @@ button:hover {
 .quote-item {
   background-color: var(--white-color);
   border-radius: 8px;
-  padding: 1rem;
+  padding: 1.5rem;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 600px;
   min-height: 150px;
   width: 100%;
   position: relative;
@@ -377,13 +431,13 @@ button:hover {
 }
 
 .quote-item blockquote {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
   flex-grow: 1;
 }
 
 .quote-item p {                                 /* Author text in quote cards */
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
   color: var(--accent-color);
 }
@@ -416,6 +470,13 @@ button:hover {
   margin-top: 0.5rem;
   color: var(--accent-color);
   text-decoration: none;
+}
+
+#topics-list,
+#authors-list {
+    background-color: var(--background-color);
+    padding: 20px;
+    border-radius: 8px;
 }
 
 #topics-list ul,
@@ -519,7 +580,7 @@ footer {
   #search-section {
     width: 100%;
     max-width: 800px;
-    margin: 1rem auto 2rem; /* Reduced top margin */
+    margin: 2rem auto; /* Center with auto margins */
     display: flex;
     justify-content: center;
     align-items: center;
