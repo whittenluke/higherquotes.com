@@ -387,7 +387,7 @@ button:hover {
 
 .content-grid {
   display: grid;
-  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
   gap: 30px;
   margin-bottom: 20px;
 }
@@ -417,27 +417,30 @@ button:hover {
 .quote-item {
   background-color: var(--white-color);
   border-radius: 8px;
-  padding: 1.5rem;
+  padding: 1rem;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 600px;
-  min-height: 150px;
+  max-width: 100%;
   width: 100%;
   position: relative;
   z-index: 0;
 }
 
 .quote-item blockquote {
-  font-size: 1.1rem;
+  font-size: 1rem;
+}
+
+.quote-item blockquote {
+  font-size: 1rem;
   margin-bottom: 1rem;
   flex-grow: 1;
 }
 
 .quote-item p {                                 /* Author text in quote cards */
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-bottom: 0.5rem;
   color: var(--accent-color);
 }
@@ -474,19 +477,29 @@ button:hover {
 
 #topics-list,
 #authors-list {
-    background-color: var(--background-color);
-    padding: 20px;
-    border-radius: 8px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 #topics-list ul,
 #authors-list ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
+}
+
+#topics-list a,
+#authors-list a {
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 #topics-list li,
 #authors-list li {
+  margin-bottom: 0.25rem;
+  line-height: 1.2;
   cursor: pointer;
   padding: 5px 0;
   transition: color 0.3s ease;
@@ -574,7 +587,10 @@ footer {
   }
 
   .content-grid {
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 20px;
   }
 
   #search-section {
