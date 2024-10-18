@@ -55,6 +55,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 ${quote.topics.map(topic => `<span class="topic-tag" data-topic="${topic}">${topic}</span>`).join(' ')}
             </div>
         `;
+        
+        // Make the entire quote card clickable
+        quoteElement.style.cursor = 'pointer';
+        quoteElement.onclick = function() {
+            window.location.href = `quote.html?id=${index}`; // Assuming the index can be used as an ID
+        };
+        
         return quoteElement;
     }
 });
